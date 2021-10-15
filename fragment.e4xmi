@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_PxveIC1PEeyRQ-h5BWVsgg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_4ZlmwC1gEeycJr8jqJUWIA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_Tz608C1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.command.zestview" commandName="Zest View"/>
+    <elements xsi:type="commands:Command" xmi:id="_UK9b8C1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.command.clearview" commandName="Clear View"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6i4OgC1gEeycJr8jqJUWIA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Y05bgC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.handler.0" contributionURI="bundleclass://project-ex-1014-simple-zest-mezzell/project.handler.UpdateGraphHandler" command="_Tz608C1hEeycJr8jqJUWIA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_ZDlXwC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.handler.1" contributionURI="bundleclass://project-ex-1014-simple-zest-mezzell/project.handler.ClearViewHandler" command="_UK9b8C1hEeycJr8jqJUWIA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8ijnQC1gEeycJr8jqJUWIA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_dv2SkC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.partdescriptor.simplezestview" label="Simple Zest Mezzell 1014" iconURI="platform:/plugin/project-ex-1014-simple-zest-mezzell/icons/sample.png" contributionURI="bundleclass://project-ex-1014-simple-zest-mezzell/project.view.SimpleZestView"/>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_d_3rkC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.partdescriptor.simpleview" label="Simple View" iconURI="platform:/plugin/project-ex-1014-simple-zest-mezzell/icons/sample.png" contributionURI="bundleclass://project-ex-1014-simple-zest-mezzell/project.view.SimpleView"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__Di9UC1gEeycJr8jqJUWIA" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_plDmAC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_vN-9YC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.menu.mezzellmenu" label="Mezzell Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vwUOYC1hEeycJr8jqJUWIA" elementId="project-ex-1014-simple-zest-mezzell.handledmenuitem.updatezestview" label="Update Graph" command="_Tz608C1hEeycJr8jqJUWIA"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
